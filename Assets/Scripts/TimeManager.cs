@@ -20,6 +20,7 @@ public class TimeManager : MonoBehaviour
     private void Start()
     {
         playerControllerClass = FindObjectOfType<PlayerController>();
+        NormalTime();
     }
 
     private void Update()

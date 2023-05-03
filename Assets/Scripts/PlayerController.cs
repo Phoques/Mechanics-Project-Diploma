@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public CharacterController charC;
     public float speed = 12;
     public float gravity = -9f;
-    public float jump = 5f;
+    public float jump = 2f;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     bool _distortingTime;
 
     public Text timeReport;
+    public Text tutorial;
 
 
     Vector3 velocity;
@@ -34,7 +35,8 @@ public class PlayerController : MonoBehaviour
 
         timeManagerClass = FindObjectOfType<TimeManager>();
 
-        timeReport.text = "Time Slow Ready";
+        timeReport.text = "";
+        tutorial.text = "Reach the end to win";
 
     }
 
@@ -56,7 +58,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && _isGrounded)
         {
-            velocity.y = Mathf.Sqrt(jump * -2f * gravity);
+            velocity.y = Mathf.Sqrt(jump * -1.5f * gravity);
         }
 
         velocity.y += gravity * Time.deltaTime;

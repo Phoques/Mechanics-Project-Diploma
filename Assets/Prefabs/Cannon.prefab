@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deaf0a2b24ca0a34aae036aac8a4d4eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: -847562071415431722, guid: a4b9d63b85f1ef142948f109a31f5112, type: 3}
+  projectile: {fileID: 1833617015496044484, guid: f9125952e23ae364fbab7a98dfa3dccd, type: 3}
   spawnpoint: {fileID: 7514145201115523694}
 --- !u!1001 &7514145201103422279
 PrefabInstance:
