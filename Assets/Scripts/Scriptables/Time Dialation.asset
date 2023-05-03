@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Time Dialation
   m_EditorClassIdentifier: 
   timeMechanicMax: 100
-  timeMechanicMin: 0
+  timeMechanic: 100
   timeMechanicDrain: 5
   timeMechanicCurrent: 100

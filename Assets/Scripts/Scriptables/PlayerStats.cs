@@ -7,9 +7,8 @@ public class PlayerStats : ScriptableObject
 {
 
     public float timeMechanicMax = 100f;
-    public float timeMechanicMin = 0f;
-    public float timeMechanicDrain = 5f;
-    public float timeMechanicCurrent = 100f;
+    public float timeMechanic = 100f;
+
 
     // Start is called before the first frame update
     void Start()
